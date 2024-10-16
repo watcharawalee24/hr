@@ -1,0 +1,52 @@
+.navbar1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .navbar-content1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: relative; /* Add this */
+  }
+  
+  .navbar-brand1 {
+    margin-top: 20px;
+    font-size: xx-large;
+    color: rgb(220, 184, 6);
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    position: absolute; /* Add this */
+    top: 20px; /* Adjust as needed */
+    z-index: 1; /* Ensure text is above image */
+  }
+  
+  .Group {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: absolute; /* Add this */
+    bottom: 20px; /* Adjust as needed */
+    z-index: 1; /* Ensure text is above image */
+  }
+  
+  .Group p {
+    font-size: 16px;
+    color: rgb(85, 84, 79);
+    text-decoration: none;
+  }
+  
+  .image-navbar-brand1 img {
+    max-width: 100%;
+    height: 150px;
+    position: relative;
+  }
+  
